@@ -7,5 +7,7 @@ git config --global user.name duocjoin
 git init: khoiwr tạo local repository
 git add: đưa các thay vào staging vào local repo
 git commit: đưa thay đổi từ staging vào local repo, lưu lại
+git remote:kết nối với remote repo
+git push origin master:
 
-các file đang làm việc staging area localrepo(offline)
+các file đang làm việc staging area localrepo(offline) remoteRepo ( online) lythuyet.txt
