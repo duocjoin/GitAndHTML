@@ -1,10 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Trang web của tôi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        .header {
+            background-color: #e2690b;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+        }
+        .search-box {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: #ffffff;
+        }
+        .main-content {
+            background-color: #0048ff;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        .news-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+        .news-item img {
+            width: 100px;
+            height: auto;
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body>
-$END$
+<div class="header">
+    <h1>FPT</h1>
+    <p><a href="https://fpt.vn/vi" style="color: #ffffff;">Trang chủ</a> | <a href="https://fpt.vn/vi/khach-hang-ca-nhan/tin-tuc/tin-fpt" style="color: #ffffff;">Tin tức</a> | <a href="https://fpt.vn/vi/khach-hang-ca-nhan/san-pham-dich-vu/internet-fpt/cap-quang-ca-nhan.html" style="color: #ffffff;">Sản phẩm</a> | <a href="https://gioithieubanbe.fpt.vn/" style="color: #ffffff;">Giới thiệu</a> | <a href="https://fpt.vn/vi/khach-hang-ca-nhan/ho-tro/lien-he-24-7/diem-giao-dich" style="color: #ffffff;">Liên hệ</a></p>
+    <div class="search-box">
+        <input type="text" placeholder="Tìm kiếm...">
+    </div>
+</div>
+<div class="main-content">
+    <h2>TV THƯỜNG SMART TV</h2>
+    <div class="news-item">
+        <img src="hinh_anh_tuong_tu_1.png" alt="Hình ảnh tin tức 1">
+        <p>Tin tức về Nam ôy Olympic ngày 27/7: Hoàng Thùy Duyên vs HCD</p>
+    </div>
+    <!-- Thêm các mục tin tức khác tại đây -->
+</div>
 </body>
 </html>

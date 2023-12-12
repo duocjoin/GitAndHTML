@@ -1,0 +1,22 @@
+Dưới đây là phân tích về các thẻ HTML và CSS mà tôi đã sử dụng:
+
+<!DOCTYPE html>: Thẻ này khai báo rằng đây là một tài liệu HTML5. Nó giúp trình duyệt hiểu đúng phiên bản HTML mà tài liệu đang sử dụng.
+<html>: Thẻ này bao quanh toàn bộ nội dung của trang web. Nó đánh dấu bắt đầu và kết thúc của một tài liệu HTML.
+<head>: Thẻ này chứa thông tin meta về trang web, bao gồm tiêu đề trang web và các thẻ liên quan đến kiểu dáng (CSS) và chức năng (JavaScript).
+<meta charset="UTF-8">: Thẻ này khai báo rằng tài liệu HTML sử dụng mã hóa UTF-8, giúp hiển thị đúng các ký tự tiếng Việt.
+<title>: Thẻ này định nghĩa tiêu đề của trang web, hiển thị trên thanh tiêu đề của trình duyệt.
+<body>: Thẻ này chứa nội dung chính của trang web, bao gồm văn bản, hình ảnh, video, vv.
+<header>: Thẻ này định nghĩa phần đầu của trang web hoặc một phần của trang web.
+<div>: Thẻ này là một thẻ chung, thường được sử dụng để nhóm các phần tử lại với nhau và áp dụng CSS.
+<h1>: Thẻ này định nghĩa tiêu đề cấp 1. HTML hỗ trợ tiêu đề từ h1 (lớn nhất) đến h6 (nhỏ nhất).
+<p>: Thẻ này định nghĩa một đoạn văn.
+<img>: Thẻ này chèn một hình ảnh vào trang web. Thuộc tính src chứa đường dẫn đến hình ảnh và thuộc tính alt chứa mô tả về hình ảnh.
+<a>: Thẻ này tạo ra một liên kết đến một trang web khác. Thuộc tính href chứa URL của trang web đích.
+Về CSS, tôi đã sử dụng một số thẻ để định dạng trang web:
+
+body: Định nghĩa kiểu chữ, lề và đệm cho toàn bộ trang web. Màu nền được đặt thành #f0f0f0, một màu xám nhạt.
+.container: Định nghĩa chiều rộng và lề cho các phần tử bên trong. overflow: hidden ngăn chặn các phần tử con từ việc “tràn” ra khỏi phần tử cha.
+header: Định nghĩa màu nền và màu chữ cho phần đầu trang.
+img: Định nghĩa chiều rộng và chiều cao cho tất cả các hình ảnh. Chiều rộng được đặt thành 100px để hình ảnh có kích thước cố định, trong khi chiều cao được đặt thành auto để duy trì tỷ lệ khung hình.
+.news-item: Định nghĩa cách hiển thị và căn chỉnh cho mỗi mục tin tức. display: flex cho phép các phần tử con (hình ảnh và liên kết tin tức) được hiển thị theo một hàng ngang.
+Hy vọng phân tích trên sẽ giúp ích cho bạn! 😊

@@ -1,0 +1,5 @@
+tr : table row
+td: table data: là ô
+th: table head: là chữ viết to hơn
+tạo bảng dùng hàm: <table border="1"></table>
+hàm kết thúc thường có thêm dấu / ví dụ:</table>
