@@ -3,3 +3,17 @@ td: table data: là ô
 th: table head: là chữ viết to hơn
 tạo bảng dùng hàm: <table border="1"></table>
 hàm kết thúc thường có thêm dấu / ví dụ:</table>
+colspan: là gộp ô
+rowspan: là gộp cột
+from: là giôống 1 tờ giấy trong đó ta sẽ có các thông tin mình cần điền
+ví dụ là nhập tay:
+imput type="text"
+imput tye="radio"
+ví dụ loại chọn:
+<select>
+<option>VN</option>
+<option>TQ</option>
+<option>Mỹ</option>
+</select>
+ví dụ loại nút:
+<button>A</button>
